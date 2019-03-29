@@ -2,8 +2,7 @@
 	STC
 	CMC
 	MOV A,H
-	RLC 
-	RRC	
+	RLC 	
 	MOV A,L
 	RAL
 	MOV L,A
