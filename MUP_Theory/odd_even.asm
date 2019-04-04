@@ -1,0 +1,9 @@
+    MVI A,32H
+    RRC
+    JC ODD
+    MVI B,01H
+    JMP END
+ODD: MVI B,02H
+END: MOV A,B
+    STA 2000H
+    HLT

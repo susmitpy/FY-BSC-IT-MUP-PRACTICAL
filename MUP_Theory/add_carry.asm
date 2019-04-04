@@ -1,0 +1,10 @@
+    LXI H,C030H
+    ADD M
+    INX H
+    ADD M
+    LXI H,C040H
+    MOV M,A
+    JNC NC
+    INX H
+    MVI M,01H
+NC: HLT
